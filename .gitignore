@@ -3,7 +3,9 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+CNAME
 
 #while in dev
+
 
 

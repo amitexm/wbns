@@ -47,7 +47,8 @@ defaults:
       layout: "page"
 
 
-
+collections:
+  ui-banner:
 
 
 

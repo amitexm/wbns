@@ -15,7 +15,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Page Title -->
+  {% if page.title == "Home" %}
+  <title>{{ site.title }}</title>
+  {% else %}
   <title>{{ page.title }} | {{ site.title }}</title>
+  {% endif %}
 
   <!-- links for favicon -->
   <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
